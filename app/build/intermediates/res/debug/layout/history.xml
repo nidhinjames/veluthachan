@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+         
+    <!-- Calender name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#ff0048">
+        
+         
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HISTORY" 
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"        
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+    <TextView 
+    	android:id="@+id/day_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#b00032"
+        />
+    
+         
+   
+    </LinearLayout>
+    
+    
+      
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+      
+     <TextView
+         android:id="@+id/text"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:gravity="center_vertical|center_horizontal"
+         android:maxLines="10000"
+         android:scrollbars="vertical"
+         android:text="heading"
+         android:textSize="22sp"
+         android:textStyle="bold" />
+
+	</LinearLayout>
+	</ScrollView>
+  
+
+</LinearLayout>
+<!-- From: file:/home/nidhin/AndroidStudioProjects/Veluthachan1/app/src/main/res/layout/history.xml -->

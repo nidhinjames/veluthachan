@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <!-- Calender name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00e39b">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/day"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+    <!-- Day Name -->
+
+
+    <TextView
+        android:id="@+id/day_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#00a16e"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+
+            <!-- Item 1 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item1_time"
+                android:textSize="22sp"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item1_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7a7a7a"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+
+
+
+            <!-- Item 2 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item2_time"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:textSize="22sp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item2_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7a7a7a"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+            <!-- Item 3-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item3_time"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22sp"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item3_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22sp"
+                android:textColor="#7a7a7a"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item3_content"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#7a7a7a"
+                />
+
+            <!-- Item 4 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item4_time"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:textSize="22sp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item4_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7a7a7a"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+
+
+
+            <!-- Item 6-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item6_time"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:textSize="22sp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item6_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7a7a7a"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item6_content"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#7a7a7a"
+                />
+
+            <!-- Item 7-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item7_time"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:textSize="22sp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00a16e"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item7_event"
+                android:paddingLeft="20dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7a7a7a"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout><!-- From: file:/home/nidhin/AndroidStudioProjects/Veluthachan1/app/src/main/res/layout/event_6.xml -->

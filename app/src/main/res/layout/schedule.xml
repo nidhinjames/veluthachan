@@ -1,0 +1,562 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:background="#00e39b"
+			android:paddingBottom="10dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="10dp"
+			android:text="JANUARY"
+			android:textColor="#ffffff"
+			android:textSize="20sp" />
+	</LinearLayout>
+
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+		<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="20dp" >
+
+			<TableRow
+				android:id="@+id/notice_jan_10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="10"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="8dp"
+					android:paddingLeft="2dp"
+					android:text="SUNDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_11"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="11"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="MONDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_12"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="12"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="TUESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_13"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="13"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="WEDNESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_14"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="14"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="THURSDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="15"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="FRIDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_16"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="16"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="SATURDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_17"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="17"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="SUNDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_18"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="18"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="MONDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_19"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="19"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="TUESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_20"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="20"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="WEDNESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_21"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="21"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="THURSDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_22"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="22"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="FRIDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_23"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="23"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="SATURDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_24"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="24"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="SUNDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_25"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="25"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="MONDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_26"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="26"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="TUESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+			<TableRow
+				android:id="@+id/notice_jan_27"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="2dp"
+					android:paddingLeft="10dp"
+					android:paddingTop="8dp"
+					android:text="27"
+					android:textColor="#00e39b"
+					android:textSize="35sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.0"
+					android:paddingBottom="15dp"
+					android:paddingLeft="2dp"
+					android:text="WEDNESDAY"
+					android:textColor="#7a7a7a"
+					android:textSize="25sp" />
+
+
+			</TableRow>
+
+		</TableLayout>
+
+	</ScrollView>
+
+</LinearLayout>

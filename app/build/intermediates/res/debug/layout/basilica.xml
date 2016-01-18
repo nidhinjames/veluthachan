@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+         
+    <!-- Calender name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="#333333">
+        
+         
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ST. ANDREW'S BASCILICA" 
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+    <TextView 
+    	android:id="@+id/day_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        />
+    
+         
+   
+    </LinearLayout>
+    
+    
+     <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+      
+	
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+   		android:text="MASS SCHEDULE"
+   		android:gravity="center"
+        android:textSize="22sp"
+        android:paddingTop="20dp"        
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#00a16e"
+        />
+     
+             
+    
+     <TextView 
+        android:id="@+id/bas_head1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="22dp"
+        android:textSize="20sp"
+        android:paddingTop="20dp"        
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#00e39b"
+        android:text="heading" />
+     
+
+     <TextView 
+        android:id="@+id/bas_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:paddingLeft="22dp"
+        android:paddingTop="2dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:text="heading" />
+     
+     
+     
+     <TextView 
+        android:id="@+id/bas_head2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="22dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#00e39b"
+        android:text="heading" />
+
+     <TextView 
+        android:id="@+id/bas_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:paddingTop="2dp"
+        android:paddingLeft="22dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:text="heading" />     
+
+    <TextView 
+        android:id="@+id/bas_head3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="15sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="22dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#00e39b"
+        android:text="heading" />
+
+     <TextView 
+        android:id="@+id/bas_text3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:paddingTop="2dp"
+        android:paddingLeft="22dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:text="heading" />
+     
+     
+     
+	
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+   		android:text="PRAYERS AND OFFERING"
+   		android:gravity="center"
+        android:textSize="22sp"
+        android:paddingTop="20dp"        
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#00a16e" />
+    
+     
+     <TextView 
+        android:id="@+id/bas_head4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingLeft="22dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="#990000"
+        android:text="heading" />
+
+     <!--<TextView
+        android:id="@+id/bas_text4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:paddingTop="2dp"
+        android:paddingLeft="22dp"
+        android:paddingBottom="20dp"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:text="heading" />-->
+
+     		</LinearLayout>
+		</ScrollView>
+  
+
+</LinearLayout>
+<!-- From: file:/home/nidhin/AndroidStudioProjects/Veluthachan1/app/src/main/res/layout/basilica.xml -->
